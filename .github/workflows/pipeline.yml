@@ -16,5 +16,6 @@ jobs:
           node-version: '16'
       - name: Install dependencies
         run: npm install
+      - run: ls
       - name: Check style
         run: npm run eslint
